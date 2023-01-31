@@ -1,0 +1,26 @@
+Q-1. How to check if git is available on your System?
+Ans. By using git --v" command.
+
+Q-2. How to initialize a new GiB repository ?
+Ans. By using "git init" command.
+
+Q-3. How to tell git about your name and email?
+Ans.  By using Command "git config --global user.name "Name" for name.
+      and By using Command "git config --global user.email "@email.com"
+
+Q-4. How to add a file in the staging area ?
+Ans. By using Command "git add fileName".
+
+Q-5. How to remsve a fiEe from the staging area ?
+Ans. by sing Command "git restore fileName".
+
+Q-6. How to make a cammit ?
+Ans. By using Command "git commit -m 'message' ".
+
+Q-7. How to send your changes in a remote repository?
+Ans. By using Command "git push REMOTE-NAME BRANCH-NAME ".
+
+Q-8. What is the difference between clone and pull?
+Ans. clone: copying the remote server repository to your local machine. pull: get new changes other have added to your local machine.
+     This is the difference. Clone is generally used to get remote repo copy. Pull is used to view other team mates added code, if you
+     are working in teams.

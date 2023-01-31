@@ -1,0 +1,53 @@
+Q-1. What is statically typed and Dynamically typed Programming Language ?
+Ans. In statically typed programming languages, type checking occurs at compile time. At compile time, source code in a specific programming language is converted to a machine-readable
+     format. This means that before source code is compiled, the type associated with each and every single variable must be known.
+     Some common examples of programming languages that belong to this category are Java, Haskell, C, C++, C#, Scala, Kotlin, Fortran, Go, Pascal, and Swift.
+
+     Conversely, in dynamically typed languages, type checking takes place at runtime or execution time. This means that variables are checked against types only when the program is
+     executing. Some examples of programming languages that belong to this category are Python, JavaScript, Lisp, PHP, Ruby, Perl, Lua, and Tcl.
+
+Q-2. What is the variable in Java ?
+Ans. Variable in Java is a data container that saves the data values during Java program execution. Every variable is assigned a data type that designates the type and quantity of 
+     value it can hold. A variable is a memory location name for the data.
+
+Q-3. How to Assign a Value To Variable?
+Ans.  dataType variableName = Value;
+     example : int num1 = 10;
+               float num2 = 10.34f;
+               double num3 = 12.234;
+               char spell = "A";
+               string str = "new word"
+
+Q-4. What are Primitive Data types in Java?
+Ans. A primitive data type specifies the size and type of variable values, and it has no additional methods.
+
+     There are eight primitive data types in Java:
+
+     Data Type   Size	        Description
+     ____________________________________________________________________________________________________________________
+     byte	     1 byte	        Stores whole numbers from -128 to 127
+     short	     2 bytes	  Stores whole numbers from -32,768 to 32,767
+     int	     4 bytes	  Stores whole numbers from -2,147,483,648 to 2,147,483,647
+     long	     8 bytes	  Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807
+     float	     4 bytes	  Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits
+     double	     8 bytes	  Stores fractional numbers. Sufficient for storing 15 decimal digits
+     boolean     1 bit	        Stores true or false values
+     char	     2 bytes	  Stores a single character/letter or ASCII values
+     ____________________________________________________________________________________________________________________
+
+Q-5. What are the Identifiers in Java?
+Ans. Identifiers in Java are names that distinguish between different Java entities, such as classes, methods, variables, and packages. Identifiers include the names of classes,
+     methods, variables, packages, constants, etc. These identifiers are each specified using a specific syntax and naming scheme.
+
+Q-6. List the Operators in Java?
+Ans. Arithmetic Operators
+     Relational Operators
+     Bitwise Operators
+     Logical Operators
+     Assignment Operators
+     Misc Operators 
+
+Q-7. Explain about Increment and Decrement operators and give an examples
+Ans. Increment operators are used to increase the value of the variable by one and decrement operators are used to decrease the value of the variable by one in Java programs. 
+     Syntax: Increment operator: ++var_name; (or) var_name++; Decrement operator: – -var_name; (or) var_name – -;
+     Example: Increment operator : ++ i ; i ++ ;

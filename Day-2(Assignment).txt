@@ -1,0 +1,36 @@
+Q-1. What is a Computer?
+Ans. A computer is a programmable electronic device that accepts raw data as input and processes it with a set of instructions (a program) to produce the result as output.
+     It renders output just after performing mathematical and logical operations and can save the output for future use. It can process numerical as well as non-numerical
+     calculations. The term "computer" is derived from the Latin word "computare" which means to calculate.
+
+Q-2. What is RAM ?
+Ans. Alternatively called main memory, primary memory, or system memory, RAM (random-access memory) is a hardware device that allows information to be stored and retrieved 
+     on a computer. RAM is usually associated with DRAM, a type of memory module. Because data is accessed randomly instead of sequentially like it is on a CD or hard drive,
+     access times are much faster. However, unlike ROM, RAM is a volatile memory and requires power to keep the data accessible. If the computer is turned off, all data
+     contained in RAM is lost.
+
+Q-3. Where is data stored in a Computer ?
+Ans. The data on a computer can be stored in multiple ways. One way is to store in the hard disk – this is for data at rest. Another way is to store in the RAM or CPU 
+     registers – for data in transit or data in use.
+     Data is a sequence of characters or symbols that are stored and processed for analysis purposes. The computer data is also a stream of bits (0s and 1s) that are stored
+     in the computer memory for further processing or translation.
+
+Q-4. What is that input Device used to type text and numbers on a document in the computer system ?
+Ans. Keyboad ,The keyboard is perhaps the most essential input device for a computer. It is used to enter text, numbers, and other characters into the computer. A keyboard typically 
+     has around 101 keys, which include the alphanumeric keys, function keys, arrow keys, and special keys such as the Shift, Ctrl, and Alt keys.
+
+Q-5. What are the Output Devices ?
+Ans. An output device is any peripheral that receives data from a computer, usually for display, projection, or physical reproduction. For example, the image shows an inkjet printer,
+     an output device that make a hard copy of anything shown on the monitor. Monitors and printers are two of the most commonly used output devices used with a computer.
+
+Q-6. Which is the input device that allows a user to move the cursor or pointer on the screen?
+Ans. Mouse, The mouse is a hand-held input device which is used to move cursor or pointer across the screen. It is designed to be used on a flat surface and generally has left and
+     right button and a scroll wheel between them. Laptop computers come with a touchpad that works as a mouse. It lets you control the movement of cursor or pointer by moving your
+     finger over the touchpad. Some mouse comes with integrated features such as extra buttons to perform different buttons.
+
+Q-7. Which language is directly understood by the computer Eithout a translation program?
+Ans. Assembly language is directly understood by the computer without translation program.
+
+Q-8. What are Input devices?
+Ans. An input device is any hardware device that sends data to a computer, allowing you to interact with and control it. The picture shows a Logitech trackball mouse, an example
+     of an input device.

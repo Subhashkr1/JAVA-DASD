@@ -1,0 +1,39 @@
+Q-1. What is Programming language?
+Ans. A programming language is a computer language that is used by programmers (developers) to communicate with computers. It is a set   of  instructions written in any specific
+     language ( C, C++, Java, Python) to perform a specific task.
+
+Q-2. Why do we need programming language?
+Ans. Programming Language- it is vocabulary and a collection of rules that command a computer, devices, applications to work according to the written codes. The programing language
+     enables us to write efficient programs and develop online solutions such as- mobile applications, web applications, and games, etc.
+
+Q-3. What are the feature of java?
+Ans. The primary objective of Java programming language creation was to make it portable, simple and secure programming language. Apart from this, there are also some excellent
+     features which play an important role in the popularity of this language. The features of Java are also known as Java buzzwords.
+     A list of the most important features of the Java language is given below.
+
+     Java Features
+     Simple
+     Object-Oriented
+     Portable
+     Platform independent
+     Secured
+     Robust
+     Architecture neutral
+     Interpreted
+     High Performance
+     Multithreaded
+     Distributed
+     Dynamic
+
+Q-4. What is an object?
+Ans. An entity that has state and behavior is known as an object e.g., chair, bike, marker, pen, table, car, etc. It can be physical or logical (tangible and intangible). 
+     The example of an intangible object is the banking system.
+
+Q-5. What is a class?
+Ans. In the real world, you'll often find many individual objects all of the same kind. There may be thousands of other bicycles in existence, all of the same make and model. Each 
+     bicycle was built from the same set of blueprints and therefore contains the same components. In object-oriented terms, we say that your bicycle is an instance of the class of 
+     objects known as bicycles. A class is the blueprint from which individual objects are created.
+
+Q-6. Explain about main() method in java? 
+Ans. The main() is the starting point for JVM to start execution of a Java program. Without the main() method, JVM will not execute the program. The syntax of the main() method is
+       public static void main(String[] args){ }

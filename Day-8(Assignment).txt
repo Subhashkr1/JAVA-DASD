@@ -1,0 +1,79 @@
+Q-1. What are the Conditional Operators in Java?
+Ans.In Java, conditional operators check the condition and decides the desired result on the basis of both conditions. In this section, we will discuss the conditional operator in Java.
+    There are three types of the conditional operator in Java:
+
+    Conditional AND
+    Conditional OR
+    Ternary Operator
+
+
+Q-2. What are the types of operators based on the number of operands ?
+Ans. An operator is called a unary, binary, or ternary operator based on the number of operands. If an operator takes one operand, it called a unary operator; if it takes two operands,
+     it called a binary operator; if it takes three operands, it called a ternary operator.
+
+Q-3. What is the use of Switch case in Java programming?
+Ans. The switch case in java executes one statement from multiple ones. Thus, it is like an if-else-if ladder statement. It works with a lot of data types. The switch statement is used
+     to test the equality of a variable against several values specified in the test cases.
+
+Q-4. What are the priority levels of arithmetic operation in java?
+Ans. Operators	                                 Precedence
+     ____________________________________________________________________________________________________
+     postfix increment and decrement	         ++ --
+     prefix increment and decrement, and unary	   ++ -- + - ~ !
+     multiplicative	                           * / %
+     additive	                                 + -
+     shift	                                       << >> >>>
+     relational	                                 < > <= >= instanceof
+     equality	                                 == !=
+     bitwise AND	                                 &
+     bitwise exclusive OR	                      ^
+     bitwise inclusive OR	                     |
+     logical AND	                                 &&
+     logical OR	                                 ||
+     ternary	                                 ? :
+     assignment	                                 = += -= *= /= %= &= ^= |= <<= >>= >>>=
+    ____________________________________________________________________________________________________
+
+Q-5. What are the conditional Statements and use of conditional statements in Java?
+Ans. Conditional statements allow us to evaluate an expression and execute some code dependant upon the outcome.
+     - if else statements
+
+Q-6. What is the syntax of if else statement?
+Ans. if (condition) {
+              // block of code to be executed if the condition is true
+      } else {
+               // block of code to be executed if the condition is false
+             }
+
+Q-7. what are the 3 types of iterative statements in java?
+Ans. - for loop
+     - while loop
+     - do while loop
+
+Q-8. Write the difference between for loop and do-while loop?
+Ans. for loop provides a concise way of writing the loop structure. Unlike a while loop, a for statement consumes the initialization, condition and increment/decrement in one line
+      thereby providing a shorter, easy to debug structure of looping.
+
+       Syntax:
+
+            for (initialization condition; testing condition; increment/decrement){
+                                              statement(s)
+                             }
+
+    do-while loop:
+       do while loop is similar to while loop with the only difference that it checks for the condition after executing the statements, and therefore is an example of Exit Control Loop.
+
+        Syntax:
+
+             do{
+                 statements..
+                 } while (condition);
+
+Q-9. Write a program to print numbers from 1 to 10.
+Ans. public class Basic{
+         public static void main(String[] args){
+             for(int i=1; i=10; i++){
+                 System.out.println(i);
+                 }
+          }
+      }
