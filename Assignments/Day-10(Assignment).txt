@@ -1,0 +1,42 @@
+Q-1. How to create an Object in Java ?
+Ans. Using the new keyword is the most popular way to create an object or instance of the class. When we create an instance of the class by using the new keyword, it allocates memory (heap) for 
+     the newly created object and also returns the reference of that object to that memory. The new keyword is also used to create an array. The syntax for creating an object is:
+            ClassName object = new ClassName();  
+
+Q-2. what is the use of new keyword in java. ?
+Ans. The Java new keyword is used to create an instance of the class. In other words, it instantiates a class by allocating memory for a new object and returning a reference to that memory.
+     We can also use the new keyword to create the array object.
+           NewExample obj=new NewExample();  
+
+Q-3. What are different types of variable in Java?
+Ans. 1.Local Variable
+     2.Instance Variable
+     3.Static Variable
+     4.Final Variable
+
+Q-4. What is the difference between Instance variable and Local variable ?
+Ans. Instance Variable: These variables are declared within a class but outside a method, constructor, or block and always get a default value.
+
+     - These variables are usually created when we create an object and are destroyed when the object is destroyed.
+     - We may use an access specifier, for instance, variable, and if no access specifier is specified, then the default access specifier is used.
+     - Each and every object will have its own copy of instance variables.
+
+     Local Variable: These variables are declared within a method but do not get any default value.
+
+     - They are usually created when we enter a method or constructor and are destroyed after exiting the block or when the call returns from the method.
+     - Its scope is generally limited to a method and its scope starts from the line they are declared. Their scope usually remains there until the closing curly brace of the method comes.
+     - The initialization of the local variable is mandatory.
+
+Q-5. In which area memory is allocated for instance variable and local variable ?     
+Ans. Stack and heap are the memories allocated by the OS to the JVM that runs in the system.Stack is a memory place where the methods and the local variables are stored.   (variable references either primitive or object references are also stored in the stack). Heap is a memory place where the objects and its instance variable are stored.
+
+     So to sum it up:
+
+     - Class objects, including method code and static fields: heap.
+     - Objects, including instance fields: heap.
+     - Local variables and calls to methods: stack
+
+Q-6. What is method overloading?
+Ans. If a class has multiple methods having same name but different in parameters, it is known as Method Overloading.
+
+     If we have to perform only one operation, having same name of the methods increases the readability of the program.     
