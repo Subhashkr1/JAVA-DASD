@@ -387,6 +387,7 @@ public class LinkedList2{
 
         while(head1 != null){
             temp.next = head1;
+            head1 = head1.next;
             temp = temp.next;
         }
         while(head2 != null){
@@ -413,6 +414,81 @@ public class LinkedList2{
         return merge(newLeft, newRight);
     }
 
+    // public Node zikZak(){
+    //     Node temp = head;
+    //     Node prev = null;
+    //     Node next = null;
+    //     boolean flag = true;
+    //     while(temp != null){
+    //         next = temp.next;
+    //         if(flag){
+    //             if(temp.data > next.data){
+    //                 int tempData = temp.data;
+    //                 temp.data = next.data;
+    //                 next.data = tempData;
+    //             }
+    //         }
+    //         else{
+    //             if(temp.data < next.data){
+    //                 int tempData = temp.data;
+    //                 temp.data = next.data;
+    //                 next.data = tempData;
+    //             }
+    //         }
+    //         flag = !flag;
+    //         temp = temp.next;
+    //     }
+    //     return head;
+    // }
+
+    public void zigZag(){
+        //find mid
+        Node slow = head;
+        Node fast = head.next;
+        while(fast !=null && fast.next != null){
+            slow = slow.next;
+            fast = fast.next.next;
+        }
+        Node mid = slow;
+
+        //reverse 2nd half
+        Node curr = mid.next;
+        mid.next = null;
+        Node prev = null;
+        Node next;
+
+        while(curr != null){
+            next = curr.next;
+            curr.next = prev;
+            prev = curr;
+            curr = next;
+        }
+
+        Node left = head;
+        Node right = prev;
+        Node nextL , nextR;
+
+        //alt merge - zig zag
+        while(left != null && right != null){
+            // nextL = left.next;
+            // nextR = right.next;
+
+            // left.next = right;
+            // right.next = nextL;
+
+            // left = nextL;
+            // right = nextR;
+
+            nextL = left.next;
+            left.next = right;
+            nextR = right.next;
+            right.next = nextL;
+
+            left = nextL;
+            right = nextR;
+        }
+        
+    }
 
     public static void main(String[] args){
         LinkedList2 ll = new LinkedList2();
@@ -453,10 +529,15 @@ public class LinkedList2{
        System.out.println(ll.checkPalindrome());
        System.out.println(size/2);
        ll.print();
+       ll.print();
        LinkedList2.head = ll.mergeSort(LinkedList2.head);
        ll.print();
        ll.print();
-       System.out.println(ll.haed);
+       ll.print();
+    //    System.out.println(ll.haed);
+
+       ll.zigZag();
+       ll.print();
 
        
        //for Cyclic (infinite loop)
@@ -477,6 +558,7 @@ public class LinkedList2{
     //    System.out.println(IScycle());
     //    ll.print();
 
+       
 
     }
 }
