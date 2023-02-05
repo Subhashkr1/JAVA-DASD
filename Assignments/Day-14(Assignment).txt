@@ -1,0 +1,21 @@
+Q-1. What is A String in Java ?
+Ans. A string is a sequence of characters. A string is an object of the String class. The String class is defined in the java.lang package. The String class provides many methods to perform operations on strings. The String class is immutable, i.e., once created, it cannot be changed. The String class provides constructors to create a string object. The String class provides many methods to perform operations on strings. The String class is immutable, i.e., once created, it cannot be changed. The String class provides constructors to create a string object.
+
+Q-2. Type of String in Java are ?
+Ans. There are two types of strings in Java:
+1. String literal
+2. String object
+
+Q-3. In how many ways can yau create String Objects in Java ?
+Ans. There are two ways to create String objects in Java:
+1. String literal
+2. By using new keyword
+
+Q-4. What is String Constant Pool in Java ?
+Ans. String constant pool is a special memory area in the heap memory. It is used to store all the string literals. When we create a string literal, the JVM first checks the string constant pool. If the string already exists in the pool, a reference to the pooled instance is returned. If the string does not exist in the pool, a new string instance is created and placed in the pool.
+
+Q-5. What do you mean by mutable and immutable objects in Java ?
+Ans. An object is said to be mutable if it can be modified after it is created. An object is said to be immutable if it cannot be modified after it is created. String class is immutable in Java. Once a String object is created, it cannot be changed. The String class provides many methods that appear to modify the string. Actually, they return a new string and leave the original string unchanged.
+
+Q-6. Where extexctly String Constant Pool located in the memory ?
+Ans. String constant pool is stored in the heap memory. It is a special memory area in the heap memory. It is used to store all the string literals. When we create a string literal, the JVM first checks the string constant pool. If the string already exists in the pool, a reference to the pooled instance is returned. If the string does not exist in the pool, a new string instance is created and placed in the pool.
